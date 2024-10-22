@@ -18,7 +18,7 @@ To test specific query, follow the commented example in the `main.py` file
 the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired flag to test within main.py. To run:
 
 `python3 main.py`
-# Model-Based related files :
+# Model-Based  approach related files :
 - codeTests/codeAssembler.py
 - aggregateFunctions.py
 - DistributionDriven_Join.py
@@ -29,13 +29,13 @@ the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired f
 - Selection_MAR.py
 - StateMachine.py
 
-# Sample-Based related files :
+# Sample-Based approach related files :
 - efficient_MAR.py
 - efficient_MCAR.py
 - Multi_UI.py
 
 
-# Interval-Based related files :
+# Interval-Based approach related files :
 - Multi_GraphH.py
 - Multi_UI.py
 - IntervalAnswers.py
@@ -54,4 +54,8 @@ the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired f
 `MarJoinsData`
 
 #### Notes:
-The`data_processing`folder will hold the observed distribution file from the modeling steps for the model-based approach
+- The`data_processing`folder will hold the observed distribution files from the modeling steps for the model-based approach.
+- You should run the code within the `ConsistentEstimators` folder :
+
+        cd ConsistentEstimators
+        python3 real_missing_experiments.py
