@@ -1,4 +1,4 @@
-# Experiments files :
+# Experiments files 
 ### - full relations :
    - real_missing_experiments.py
    - injected_missing_expermints.py
@@ -11,14 +11,14 @@
 Choose the desired experiment file and type :
 `python3 real_missing_experiments.py`
 
-# Individual query testing:
+# Individual query testing
 - main.py
 
 To test specific query, follow the commented example in the `main.py` file 
 the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired flag to test within main.py. To run:
 
 `python3 main.py`
-# Model-Based  approach related files :
+# Model-Based  approach related files 
 - codeTests/codeAssembler.py
 - aggregateFunctions.py
 - DistributionDriven_Join.py
@@ -29,19 +29,19 @@ the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired f
 - Selection_MAR.py
 - StateMachine.py
 
-# Sample-Based approach related files :
+# Sample-Based approach related files 
 - efficient_MAR.py
 - efficient_MCAR.py
 - Multi_UI.py
 
 
-# Interval-Based approach related files :
+# Interval-Based approach related files 
 - Multi_GraphH.py
 - Multi_UI.py
 - IntervalAnswers.py
 
 
-###  Helper file to close unterminated quotes in a dataset
+###  Helper file to close unterminated quotes in a dataset:
 - fix_quotes.py
 
 ### Single relations MCAR and MAR datasets folder :
@@ -59,3 +59,9 @@ the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired f
 
         cd ConsistentEstimators
         python3 real_missing_experiments.py
+- Once run, a folder for the model-based approach, called` ModelBasedLog`, will be created to hold the modeling and execution step times separately. We also report the model-based total time within the outputs folders listed below. 
+
+#### Output folders:
+Once run, these folders will be created and have the recored times and estimated 
+-  full relations experiments : ` Injected `and  `RealWorld` folders 
+-  stop early experiments :  `Mcar_StoppingEarly `and `Mar_StoppingEarly folder`
