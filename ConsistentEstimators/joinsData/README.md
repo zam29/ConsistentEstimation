@@ -1,7 +1,7 @@
 
 # joinsData
 
-Download the datasets and place them in this folder
+Download the datasets and place them in this folder before running the code.
 
 https://anonymfile.com/adxE2/bank2-mcarjoins2.csv
 
