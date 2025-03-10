@@ -3,7 +3,7 @@
    - real_missing_experiments.py
    - injected_missing_expermints.py
    
-### - stopping early :
+### - random samplinng :
    - mar_stoppingEarly.py
    - mcar_stoppingEarly.py
 
@@ -14,11 +14,11 @@ Choose the desired experiment file and type :
 # Individual query testing
 - main.py
 
-To test specific query, follow the commented example in the `main.py` file 
+To test a specific query, follow the commented example in the `main.py` file 
 the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired flag to test within main.py. To run:
 
 `python3 main.py`
-# Model-Based  approach related files 
+# Distribution-Centric approach files 
 - codeTests/codeAssembler.py
 - aggregateFunctions.py
 - DistributionDriven_Join.py
@@ -29,13 +29,13 @@ the `Multi_UI.py` file  has all the flags in its constructor. Pick the desired f
 - Selection_MAR.py
 - StateMachine.py
 
-# Sample-Based approach related files 
+# Data-Centric approach files 
 - efficient_MAR.py
 - efficient_MCAR.py
 - Multi_UI.py
 
 
-# Interval-Based approach related files 
+# Interval-Based approach files 
 - Multi_GraphH.py
 - Multi_UI.py
 - IntervalAnswers.py
