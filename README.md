@@ -3,7 +3,7 @@
    - real_missing_experiments.py
    - injected_missing_expermints.py
    
-### - random samplinng :
+### - random sampling :
    - mar_stoppingEarly.py
    - mcar_stoppingEarly.py
 
